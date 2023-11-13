@@ -1,0 +1,46 @@
+1. What are Primitive Data types in Java ?
+Ans: Prmitive data types are predefined data types in java.
+	Below are the Primitive data types
+	1.byte
+	2.short
+	3.int
+	4.long
+	5.float
+	6.double
+	7.char
+	8.String
+	9.boolean
+
+2. What are the Identifiers in Java ?
+Ans: Identifiers in Java are symbolic names used for identification. They can be a class name, variable name,
+method name, package name, constant name, and more. HoUever, In Java , There are some reserved Uords
+that can not be used as an identifier.
+
+3.What is final Class in Java ?
+Ans: If we apply final keyword on class then inhertiance is not possbile, if we apply on variable then initialization is mandatory and cannot modify the value, if we apply on methods then overriding is not possible.
+
+4. What are the two ways to make a Class final ?
+Ans: 1) We can apply final keyword on class 
+     2) We can make the Constructor as private so that object can't be created outside of the class.
+
+5. Can we create an instance of final class in another Class ?
+Ans: Yes, we can create an instance of final class but inheritance is not possible.
+
+6. What is volatile keyword used for ?
+Ans: Volatile is a declaration that a variable can be accessed by multiple threads and hence shouldn't be cached.
+
+7. What is the use of transient keyword ?
+Ans: transient keyword can be applied on variable so that can't be serialized and skipped during serialization.
+
+8. What are the types of casting ?
+Ans: 1) Primitive Casting and 2) Derived Casting.
+
+9. What is boxing and unboxing ?
+Ans: This is the Wrapper class concept,
+	Boxing : When we wrap the primitive type into correspondant wrapper class object.
+	Unboxing : When we unwrap the wrapper class object into correspondant primitive type.
+
+10. What is the difference between keywords, identifiers and literals in Java ?
+Ans: Keywords : Keywords are the reserved words which are pre-defined in Java.
+     Identifiers : Identifiers are the name assigned by programmer to Class, Interface, Methods and variables.
+     Literals : Literals are the values that are assigned by the programmer to identifiers. 
